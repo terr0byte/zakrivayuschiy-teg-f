@@ -1,0 +1,65 @@
+@keyframes jiggle {
+  0% {
+    left: -19px;
+  }
+
+  100% {
+    left: -15px
+  }
+}
+
+.theme-menu__button {
+  position: relative;
+  background: transparent;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height */
+  text-transform: uppercase;
+  outline: none;
+}
+
+.theme-menu__button:disabled {
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.theme-menu__button::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: -3px;
+  background: var(--accent-color);
+  height: 2px;
+  transition-property: left right;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+.theme-menu__button:focus-visible::after {
+  right: 0;
+}
+
+.theme-menu__button:focus-visible {
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.theme-menu__button:hover {
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.theme-menu__button:disabled::before {
+  position: absolute;
+  width: 16px;
+  height: 13px;
+  left: -19px;
+  content: "▶";
+  animation: jiggle 0.5s ease-in-out infinite alternate;
+}

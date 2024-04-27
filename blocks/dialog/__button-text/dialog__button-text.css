@@ -1,0 +1,12 @@
+.dialog__button-text {   
+    align-self: center;
+    font-family: var(--accent-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 90%;
+    color: var(--text-color);
+    padding: 0 0;
+    text-transform: uppercase;
+    mix-blend-mode: difference;
+}

@@ -1,0 +1,10 @@
+.card__text {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 117%;
+  margin: 0 25px;
+}

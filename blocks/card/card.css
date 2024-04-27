@@ -1,0 +1,8 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: clamp(375px, 50%, 700px);
+  border: 2px solid var(--accent-color);
+  color: var(--accent-color);
+  background-color: var(--background-color);
+}

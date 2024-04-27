@@ -1,0 +1,26 @@
+.card__label {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  font-family: var(--accent-font);
+  z-index: 10;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  mix-blend-mode: hard-light;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: var(--stroke-color);
+  opacity: 0.5;
+  text-shadow: -1px 0 var(--stroke-color), 0 1px var(--stroke-color),
+    1px 0 var(--stroke-color), 0 -1px var(--stroke-color);
+}
+
+@supports((text-stroke: 1px var(--stroke-color)) or (-webkit-text-stroke: 1px var(--stroke-color))) {
+    .card__label {
+        -webkit-text-stroke: 1px var(--stroke-color);
+        text-stroke: 1px var(--stroke-color);
+        text-shadow: none;
+    }
+}

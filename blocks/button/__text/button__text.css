@@ -1,0 +1,18 @@
+.button__text {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  width: 130px;
+  height: 38px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--accent-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--text-color);
+  line-height: 13px;
+  padding: 0 0;
+  mix-blend-mode: difference;
+}

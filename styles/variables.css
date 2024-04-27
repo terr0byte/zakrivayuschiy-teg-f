@@ -1,1 +1,14 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --main-font: 'Inter';
+    --accent-font: 'PressStart2P';
+    --card-header-weight: 700;
+    --card-text-weight: 400;
+    --background-color: #FFF;
+    --accent-color: #000;
+    --background-image: repeating-linear-gradient(to right, #d3d3d3, transparent 2px), repeating-linear-gradient(to bottom, #d3d3d3, transparent 2px), linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+    --stroke-color: #FFF;
+    --text-color: #FFF;
+    --contour-color: #000;
+    --fill-color: #FF0000;
+}

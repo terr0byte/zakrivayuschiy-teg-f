@@ -1,0 +1,47 @@
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__theme-menu/header__theme-menu.css);
+
+@import url(../blocks/theme-menu/__button/theme-menu__button.css);
+@import url(../blocks/theme-menu/__item/theme-menu__item.css);
+@import url(../blocks/theme-menu/__list/theme-menu__list.css);
+
+@import url(../blocks/main/main.css);
+
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__buttons/card__buttons.css);
+@import url(../blocks/card/__header/card__header.css);
+@import url(../blocks/card/__icon-button/card__icon-button.css);
+@import url(../blocks/card/__image/card__image.css);
+@import url(../blocks/card/__like-button/card__like-button.css);
+@import url(../blocks/card/__text/card__text.css);
+@import url(../blocks/card/__container/card__container.css);
+@import url(../blocks/card/__label/card__label.css);
+
+@import url(../blocks/footer/footer.css);
+
+@import url(../blocks/save/__button/save__button.css);
+@import url(../blocks/save/__text/save__text.css);
+
+@import url(../blocks/button/__text/button__text.css);
+
+@import url(../blocks/dialog/dialog.css);
+@import url(../blocks/dialog/__floppy/dialog__floppy.css);
+@import url(../blocks/dialog/__text/dialog__text.css);
+@import url(../blocks/dialog/__container/dialog__container.css);
+@import url(../blocks/dialog/__button/dialog__button.css);
+@import url(../blocks/dialog/__button-text/dialog__button-text.css);
+
+@import url(../blocks/floppy/floppy.css);
+
+@import url(../blocks/img/img_1.css);
+@import url(../blocks/img/img_2.css);
+@import url(../blocks/img/img_3.css);
+@import url(../blocks/img/img_4.css);
+@import url(../blocks/img/img_5.css);
+@import url(../blocks/img/img_6.css);
+@import url(../blocks/img/img_7.css);
+@import url(../blocks/img/img_8.css);

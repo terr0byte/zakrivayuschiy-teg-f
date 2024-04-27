@@ -1,0 +1,16 @@
+.dialog {
+    background-color: var(--background-color);
+    border: 2px solid var(--accent-color);
+
+}
+
+.dialog[open] {   
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px;
+}
+
+.dialog::backdrop {
+    background: #000000;
+    opacity: 0.75;
+}

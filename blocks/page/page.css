@@ -1,0 +1,13 @@
+.page {
+    min-inline-size: 320px;
+    min-block-size: 100dvb;
+    background-color: var(--background-color);
+    background-image: var(--background-image);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--main-font), sans-serif;
+  }

@@ -1,0 +1,6 @@
+.floppy {
+  width: 21px;
+  height: 21px;
+  color: var(--text-color);
+  mix-blend-mode: difference;
+}

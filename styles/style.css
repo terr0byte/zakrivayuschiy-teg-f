@@ -14,7 +14,9 @@
 
 */
 
-.page {
-  min-inline-size: 320px;
-  min-block-size: 100dvb;
-}
+@import url(./index.css);
+
+
+.sparks {
+    opacity: 0;
+  }

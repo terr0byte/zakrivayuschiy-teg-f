@@ -1,0 +1,7 @@
+.dialog__floppy {
+    width: 39px;
+    height: 39px;
+    color: var(--accent-color);
+    margin-right: 20px;
+    align-self: center;
+}
