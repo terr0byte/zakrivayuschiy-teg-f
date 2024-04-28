@@ -4,3 +4,11 @@
   color: var(--text-color);
   mix-blend-mode: difference;
 }
+
+
+@media (max-width: 375px) {
+  .floppy {
+    width: 28px;
+    height: 28px;
+  }
+}

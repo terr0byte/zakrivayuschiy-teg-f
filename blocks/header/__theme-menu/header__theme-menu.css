@@ -1,5 +1,7 @@
 .header__theme-menu {
   display: flex;
+  position: relative;
   flex-direction: column;
   margin-bottom: 25px;
+  left: 10px;
 }

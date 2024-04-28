@@ -4,10 +4,10 @@
     align-items: center;
     justify-content: end;
     margin-top: 100px;
-    min-height: 368px;
+    padding-top: 134px;
     border: 2px solid var(--accent-color);
     width: clamp(375px, 50%, 700px);
-    font-family: var(--accent-font);
+    font-family: var(--accent-font), sans-serif;
     color: var(--accent-color);
     background-color: var(--background-color);
   }
@@ -15,5 +15,6 @@
   @media (max-width: 375px) {
     .header {
       max-width: 375px;
+      padding-top: 120px;
     }
   }

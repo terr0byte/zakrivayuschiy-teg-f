@@ -5,6 +5,12 @@
   line-height: 22px;
   display: flex;
   align-items: center;
-  border-bottom: 2px solid var(--accent-color);
   padding: 3px 0 3px 10px;
+  text-align: left;
+}
+
+@media (max-width: 375px) {
+  .card__header{
+    max-width: 300px;
+  }
 }

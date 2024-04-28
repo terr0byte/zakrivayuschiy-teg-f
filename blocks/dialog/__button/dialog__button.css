@@ -6,6 +6,7 @@
     color: var(--accent-color);
     min-height: 38px;
     border: 2px solid var(--accent-color);    
+    cursor: pointer;
 }
 
 .dialog__button:focus,
@@ -13,21 +14,4 @@
   outline: none;
   box-shadow: 2px 2px var(--accent-color);
   transition: box-shadow 0.3s ease;
-}
-
-.dialog__button::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transform: scale(0, 1);
-  background-color: var(--accent-color);
-  transform-origin: top left;
-}
-
-.dialog__button:hover::before {
-  transform: scale(1);
-  transition: transform 0.5s ease-in-out;
 }

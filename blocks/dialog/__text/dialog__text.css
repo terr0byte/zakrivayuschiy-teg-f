@@ -1,6 +1,6 @@
 .dialog__text {
     
-    font-family: var(--accent-font);
+    font-family: var(--accent-font), fantasy, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;

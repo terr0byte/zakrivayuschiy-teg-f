@@ -4,8 +4,10 @@
   color: var(--accent-color);
   align-items: center;
   background-color: var(--background-color);
-  border: 2px solid #000000;
-  padding: 15px 20px 15px 20px;
+  border: 2px solid var(--accent-color);
+  padding: 15px 20px;
+  margin-bottom: 103px;
+  cursor: pointer;
 }
 
 .save__button:focus,
@@ -15,19 +17,11 @@
   transition: box-shadow 0.3s ease;
 }
 
-.save__button::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transform: scale(0, 1);
-  background-color: var(--accent-color);
-  transform-origin: top left;
-}
-
-.save__button:hover::before {
-  transform: scale(1);
-  transition: transform 0.5s ease-in-out;
+@media (max-width: 375px) {
+  .save__button {
+    flex-direction: column;
+    margin-bottom: 100px;
+    gap: 8px;
+    padding: 15px 20px;
+  }
 }

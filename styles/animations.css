@@ -23,7 +23,7 @@
     transition: fill 0.3s linear;
 }
 
-.like-icon:hover .main-body {
+.like-icon:hover:not(.is-liked) .main-body {
   fill: var(--contour-color);
   transition: fill 0.3s 0.05s linear;
 }
@@ -44,7 +44,7 @@
 
 }
 
-.like-icon:hover .core {
+.like-icon:hover:not(.is-liked) .core {
   fill: var(--contour-color);
   transition: fill 0.3s linear;
 }
@@ -96,3 +96,13 @@
         opacity: 100%;
     }
 }
+
+@keyframes jiggle {
+    0% {
+      left: -19px;
+    }
+  
+    100% {
+      left: -15px;
+    }
+  }

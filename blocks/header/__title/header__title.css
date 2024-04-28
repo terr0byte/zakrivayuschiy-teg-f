@@ -1,9 +1,13 @@
 .header__title {
-  margin-bottom: 20px;/* </HTML> */
+  margin-bottom: 20px;
   font-style: normal;
   font-weight: 400;
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
-  line-height: 65px;
-  /* identical to box height */
+  line-height: 100%;
   text-transform: uppercase;  
+}
+
+@media (max-width: 375px) {
+  .header__subtitle {
+  }
 }
