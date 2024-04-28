@@ -1,6 +1,6 @@
 .card__header {
   font-style: normal;
-  font-weight: 700;
+  font-variation-settings: "wght" 700; 
   font-size: 18px;
   line-height: 22px;
   display: flex;

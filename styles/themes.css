@@ -12,7 +12,7 @@
     --card-text-weight: 400;
     --background-color: #FFF;
     --accent-color: #000;
-    --background-image: repeating-linear-gradient(to right, #d3d3d3, transparent 2px), repeating-linear-gradient(to bottom, #d3d3d3, transparent 2px), linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+    --background-image: repeating-linear-gradient(to right, #d3d3d3, transparent 4px), repeating-linear-gradient(to bottom, #d3d3d3, transparent 4px), linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
     --stroke-color: #FFF;
     --text-color: #FFF;
     --contour-color: #000;
@@ -26,7 +26,7 @@
     --card-text-weight: 465;
     --background-color: #000;
     --accent-color: #00CC14;
-    --background-image: repeating-linear-gradient(to right, #000, transparent 2px), repeating-linear-gradient(to bottom, #000, transparent 4px), linear-gradient(to bottom, #007f0c, #004306);
+    --background-image: repeating-linear-gradient(to right, #000, transparent 4px), repeating-linear-gradient(to bottom, #000, transparent 4px), linear-gradient(to bottom, #007f0c, #004306);
     --stroke-color: #000;
     --text-color: #00CC14;
     --contour-color: #00CC14;
@@ -41,7 +41,7 @@
         --card-text-weight: 465;
         --background-color: #000;
         --accent-color: #00CC14;
-        --background-image: repeating-linear-gradient(to right, #000, transparent 2px), repeating-linear-gradient(to bottom, #000, transparent 4px), linear-gradient(to bottom, #007f0c, #004306);
+        --background-image: repeating-linear-gradient(to right, #000, transparent 4px), repeating-linear-gradient(to bottom, #000, transparent 4px), linear-gradient(to bottom, #007f0c, #004306);
         --stroke-color: #000;
         --text-color: #00CC14;
         --contour-color: #00CC14;

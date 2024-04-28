@@ -22,3 +22,9 @@
         text-shadow: none;
     }
 }
+
+@media (max-width: 375px) {
+    .card__label {
+        right: 11px;        
+    }
+}
